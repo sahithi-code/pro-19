@@ -14,7 +14,7 @@ player_running = loadAnimation("Monkey_01.png","Monkey_02.png","Monkey_03.png","
 }
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(1600,1600);
   jungle=createSprite(0,0,800,600);
 jungle.addImage(jungleimg);
 jungle.scale=1.1
